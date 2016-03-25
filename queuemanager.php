@@ -37,6 +37,7 @@ if($running_jobs<$joblimit)
 		}
 	}
 }
+sleep(30); //Wait 30 seconds for more jobs
 if(isset($argv[2]))
 	echo "All jobs started\n";
 else
